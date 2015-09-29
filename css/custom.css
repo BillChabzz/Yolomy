@@ -7,6 +7,8 @@ html,body{
 
 /*******************ID styles********************/
 #banner {
+    background-image: url(/assets/backgrounds/hero.jpg);
+    background-size: cover;
 
 }
 #store {
