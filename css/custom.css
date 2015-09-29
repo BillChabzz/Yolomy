@@ -31,6 +31,7 @@ ul li{
 
 }
 #store {
+    padding: 4%;
 
 }
 #about {
@@ -41,6 +42,9 @@ ul li{
 
 }
 /*********************CLASSES*********************/
+.yolo {
+	margin: 5%;
+}
 .img{
     position: absolute;
     margin: 0;
@@ -63,5 +67,19 @@ ul li{
     padding-left: 50%;
     margin-top: 40%;
     margin-bottom: 10%;
+}
+/***********************Store************************/
+.labels label{
+    margin: 0 1%;
+	display: inline-block;
+}
+.btn {
+    text-align: center;
+    height: 30px;
+    width: ; 600px;
+    color: #fff;
+    background-color: maroon;
+	float: right;
+    padding-right: 10%;
 }
 
