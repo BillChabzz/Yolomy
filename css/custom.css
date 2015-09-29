@@ -4,6 +4,25 @@ html,body{
     line-height: ;
 
 }
+/***************LINKS********************/
+a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+/*******************Lists****************/
+ul{
+    list-style: none;
+}
+ul li{
+    float: right;
+    display: inline-block;
+    padding: 10px;
+    padding-right: 60px;
+
+
+}
 
 /*******************ID styles********************/
 #banner {
@@ -22,3 +41,27 @@ html,body{
 
 }
 /*********************CLASSES*********************/
+.img{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    right: 10px;
+    top: 10px;
+    float: right;
+}
+.htxt {
+    text-align: center;
+    color: #fff;
+	margin-top: 36%;
+}
+.htxt.tag {
+	margin-top: 10%;
+}
+.arrow-down {
+	margin: 0;
+    padding: 0;
+    padding-left: 50%;
+    margin-top: 40%;
+    margin-bottom: 10%;
+}
+
