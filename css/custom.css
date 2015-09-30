@@ -108,7 +108,12 @@ ul li{
     clear: both;
 }
 /*****************Store card***********/
+.card{
+    background-color: beige;
+    width: 280px;
+    height: 350px;
 
+}
 .circle {
     display: inline-block;
 	height: 20px;
@@ -133,3 +138,9 @@ ul li{
     font-size: 1.5em;
 	padding-bottom: 6%;
 }
+/*************sales!!**********/
+.row.sales {
+    color: #fff;
+	background-color: #4f4f4f;
+}
+
