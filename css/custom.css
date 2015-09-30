@@ -35,9 +35,12 @@ ul li{
 }
 #store {
     /*padding: 4%;*/
+    margin-bottom: 5%;
 
 }
 #about {
+    text-align: center;
+    color: #fff;
     background-image: url(/assets/backgrounds/about.jpg);
     background-size: cover;
 }
@@ -118,8 +121,15 @@ ul li{
 }
 .circle.grey {
 	background-color: gray;
-} {
-
 }
 
+/*************About****************/
+#about h3 {
+    padding-top: 6%;
+
+}
+#about p {
+    font
+    font-size: 1.5em;
+	padding-bottom: 6%;
 }
