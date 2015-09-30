@@ -4,6 +4,7 @@ html,body{
 
 
 }
+
 /***************LINKS********************/
 a{
     text-decoration: none;
@@ -27,13 +28,13 @@ ul li{
 /*******************ID styles********************/
 #banner {
     width: 100%;
-    height: auto;
+    /*height: auto;*/
     background: url(/assets/backgrounds/hero.jpg);
     background-size: cover;
-    background-attachment: fixed;
+    /*background-attachment: fixed;*/
 }
 #store {
-    padding: 4%;
+    /*padding: 4%;*/
 
 }
 #about {
@@ -54,20 +55,33 @@ ul li{
     margin-top: 200px;
 }
 .htxt h1 {
-    font-size: 5em
+    font-size: 6em;
+    font-weight: 400;
 
+}
+.htxt p{
+	font-size: 3em;
+    font-weight: 100;
 }
 .htxt.tag {
 	margin-top: 10%;
 }
-.arrow-down {
-	margin: 0;
+/**********************arrow**************************/
+
+.arrow-down img{
+    margin: 0;
     padding: 0;
-    padding-left: 50%;
     margin-top: 40%;
+    margin-left: 50%;
     margin-bottom: 10%;
+
 }
 /***********************Store************************/
+.hd {
+    padding: 2% 0;
+    width: 100%;
+	background-color: lightgray;
+}
 .labels label{
     margin: 0 1%;
 	display: inline-block;
@@ -81,4 +95,30 @@ ul li{
 	float: right;
     padding-right: 10%;
 }
+.men-women h6{
+    padding: 2% 5%;
 
+}
+.counter {
+    margin-right: 3%;
+	float: right;
+    clear: both;
+}
+/*****************Store card***********/
+
+.circle {
+    display: inline-block;
+	height: 9px;
+    width: 9px;
+    background-color: red;
+}
+.circle.blue {
+	background-color: blue;
+}
+.circle.grey {
+	background-color: gray;
+} {
+
+}
+
+}
